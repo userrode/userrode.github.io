@@ -1,0 +1,58 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('pexels-pixabay-326612.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #33ffff;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 20px; /* Radio de esquinas redondas */
+    padding: 20px; /* Espaciado interno */
+    background-color: rgba(51, 51, 255, 0.3); /* Fondo redondeado */
+}
+
+h2 {
+    color: #ff0000;
+    font-size: 1.8em;
+    margin-top: 20px;
+    font-style: italic;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 15px; /* Radio de esquinas redondas */
+    padding: 15px; /* Espaciado interno */
+    background-color: rgba(255, 0, 0, 0.3); /* Fondo redondeado */
+}
+
+
+
+button {
+    background-color: #ff3366;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border-radius: 25px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #ff547a;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+img {
+    max-width: 40%; /* Establece el ancho máximo de la imagen al 100% del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente proporcionalmente al ancho */
+}

@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(fondoG.jpg);
+    background-size: cover; /* Cubrir completamente el área del fondo */
+    background-repeat: no-repeat; /* Evitar la repetición del fondo */
+    
+}
+
+div {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 15px 30px;
+    background-color: #f1afaf;
+    border-radius: 25px;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+    text-align: center;
+}
+
+.custom-button {
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px; /* Bordes redondeados */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transición para la animación */
+}
+
+.custom-button:hover {
+    background-color: #a045a0; /* Cambia el color de fondo al pasar el ratón sobre el botón */
+    transform: scale(1.05); /* Escala el botón ligeramente al pasar el ratón sobre él */
+}
+
+.custom-button:active {
+    background-color: #3e8e41; /* Cambia el color de fondo cuando el botón está presionado */
+    transform: scale(1); /* Restaura el tamaño del botón cuando está presionado */
+}
+h1 {
+    color: #f17474;
+    border: crimson;
+}
+
