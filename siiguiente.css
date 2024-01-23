@@ -1,0 +1,139 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/006/929/681/small/abstract-background-bokeh-circle-light-blue-abstract-blue-effect-background-light-blue-abstract-background-free-photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+a
+{
+    display: inline-block;
+    font-size: 30px;
+}
+header
+{
+    font: oblique bold 100% cursive;
+    padding: 10px 0;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    background-image:  url("https://media2.giphy.com/headers/dhunten/0DvIY8fAjBSg.gif"); 
+    z-index: 2;
+}
+header.container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container
+{
+    width: 1149px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+header.container.logo
+{
+    width: 100px;
+}
+header nav a
+{
+    color: wheat153,244;
+    text-decoration: none;
+    margin: 0 15px;
+
+}
+#inicio
+{
+    position: relative;
+}
+#inicio img
+{
+    width: 100%;
+    display: block;
+}
+#inicio .bloque-inicio
+{
+    position:  absolute;
+    top: 70px;
+    left: 60%;
+    width: 400px;
+    text-align: center;
+    
+}
+#inicio h1
+{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    
+
+}
+#inicio p
+{
+    color: rgb(19, 87, 92);
+    font-size: 16px;
+
+}
+p{
+  color: rgb(19, 87, 92);
+  font-size: 16px;
+}
+
+.imagen-pequena {
+    width: 500px; /* Establece el ancho máximo de la imagen en 200 píxeles */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+
+
+.titulo {
+    text-align: center;
+    padding: 30px;
+    background-color: #FFC0CB;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    color: #FF1493;
+    text-transform: uppercase;
+    font-size: 50px;
+    animation: destello 5s infinite; /* Aplica la animación de destello */
+}
+
+@keyframes destello {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.album {   
+    display: flex; /* Usa un contenedor flex para organizar las imágenes en una fila */
+    gap: 10px; /* Espacio entre las imágenes */
+    padding: 20px; /* Espacio alrededor del álbum */
+}
+
+.imagen-pequena {
+    flex: 0 0 auto; /* Las imágenes no se expanden y mantienen su tamaño original */
+    width: 200px; /* Establece un ancho fijo para las imágenes */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border: 5px solid #ff002b; /* Agrega un borde rosa alrededor de las imágenes */
+    border-radius: 5px; /* Añade esquinas redondeadas a las imágenes */
+}
